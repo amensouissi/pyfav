@@ -34,7 +34,10 @@ favicon_url = get_favicon_url('https://www.python.org/')
 
 
 import urllib, os.path, string
-from urlparse import urlparse
+try:
+  from urlparse import urlparse
+except:
+  from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
