@@ -24,7 +24,7 @@ long_description = "pyfav is a simple Python library that helps you get a \
 
 setup( 
     name = 'pyfav',
-    version = '0.1',
+    version = '0.2',
     url = 'http://github.com/phillipsm/pyfav',
     author = 'Matthew Phillips',
     author_email = 'matt@mattphillips.info',
